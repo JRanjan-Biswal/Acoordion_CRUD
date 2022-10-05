@@ -1,0 +1,42 @@
+.delete-modal-wrapper {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(21, 6, 34, 0.863);
+}
+.delete-modal {
+    position: absolute;
+    font-size: 5rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: rgba(29, 68, 69, 0.9);
+    border-radius:  1rem;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+
+.delete-modal div:last-child span {
+    margin: 2rem;
+    font-size: 3rem;
+    background-color: rgb(235, 148, 117);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.delete-modal div:last-child span:first-child {
+    background-color: rgb(160, 202, 117);
+}
+
+.delete-modal div:last-child span:hover {
+    cursor: pointer;
+}
+
+.delete-modal div:first-child > span {
+    color: rgb(72, 255, 0);
+}
